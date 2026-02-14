@@ -3,6 +3,8 @@
 ![Author](https://img.shields.io/badge/Author-Matysiak-green)
 # SCP-153 | BULSON
 
+LOOKING FOR PRO MODELER, TO REPAIR THE MODEL!!!(SORY IM BAD WITH UNITY!!!!)
+
 🇵🇱 Polski | 🇬🇧 English
 
 ## 🇵🇱 Polski
