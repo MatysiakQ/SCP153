@@ -1,5 +1,4 @@
 ﻿using Exiled.API.Features;
-using Exiled.API.Features.Toys;
 using MEC;
 using Mirror;
 using ProjectMER;
@@ -150,4 +149,3 @@ namespace SCP153
         }
     }
 }
-

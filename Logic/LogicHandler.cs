@@ -30,7 +30,7 @@ namespace SCP153.Logic
         {
             EatCooldowns.Clear();
 
-            // Czekamy 5s - dłużej niż SCP-066 (który działa na ChangingRole ~0.5s)
+            // Czekamy 5s - dłużej niż SCP-066 (który czeka 3s)
             // żeby mieć pewność że 066 już się przypisał zanim 153 wybiera pulę
             Timing.CallDelayed(5.0f, () =>
             {
@@ -51,6 +51,18 @@ namespace SCP153.Logic
 
                 Player selected = scpPool[Random.Range(0, scpPool.Count)];
                 bulsonRole.AddRole(selected);
+
+                // Teleport do Server Room w HCZ
+                Timing.CallDelayed(1f, () =>
+                {
+                    var room = Room.List.FirstOrDefault(r => r.Name.ToLower().Contains("server") && r.Zone == ZoneType.HeavyContainment);
+
+                    // Fallback na HczArmory
+                    if (room == null)
+                        room = Room.List.FirstOrDefault(r => r.Type == RoomType.HczArmory);
+
+                    if (room != null) selected.Teleport(room.Position + Vector3.up * 1.5f);
+                });
 
                 Log.Info($"[SCP-153] Wylosowano gracza {selected.Nickname} z puli SCP.");
             });

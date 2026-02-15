@@ -1,6 +1,7 @@
 ﻿using Exiled.API.Enums;
 using Exiled.API.Features;
 using Exiled.CustomRoles.API.Features;
+using MEC;
 using PlayerRoles;
 using UnityEngine;
 
@@ -20,13 +21,22 @@ namespace SCP153.Roles
         {
             if (player == null || !Check(player)) return;
 
-            // Statystyki
-            player.MaxHealth = 6000f;
-            player.Health = 6000f;
-            player.HumeShield = 500f;
+            // Delay 0.8f - żeby HpLimiter (który działa na Spawned) nie nadpisał naszego HP
+            MEC.Timing.CallDelayed(0.8f, () =>
+            {
+                if (player == null || !player.IsAlive) return;
 
-            // TRICK NA UKRYCIE ZOMBIAKA DLA INNYCH
-            player.EnableEffect(EffectType.Invisible, 253);
+                // Statystyki
+                player.MaxHealth = 6000f;
+                player.Health = 6000f;
+                player.HumeShield = 500f;
+            });
+
+            // UKRYCIE ZOMBIAKA - Fade 255 zamiast Invisible (gracz nie widzi przyciemnionego ekranu)
+            player.EnableEffect(EffectType.Fade, 255, 9999f);
+
+            // Ukrycie nicku/ról nad głową (bitmask 0 = nic nie pokazuj)
+            player.InfoArea = (PlayerInfoArea)0;
 
             // Spowolnienie do ~80% prędkości
             player.EnableEffect(EffectType.Slowness, 20, 9999f);
@@ -43,7 +53,9 @@ namespace SCP153.Roles
 
         protected override void RoleRemoved(Player player)
         {
-            player.DisableEffect(EffectType.Invisible);
+            player.DisableEffect(EffectType.Fade);
+            // Przywracamy domyślne info nad głową
+            player.InfoArea = PlayerInfoArea.Nickname | PlayerInfoArea.CustomInfo | PlayerInfoArea.Badge | PlayerInfoArea.Role;
             player.DisableEffect(EffectType.Slowness);
             player.Scale = Vector3.one;
 
