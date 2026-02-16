@@ -19,7 +19,7 @@ EXILED (Najnowsza wersja)
 
 Exiled.CustomRoles (Standardowo dołączone do EXILED)
 
-MapEditorReborn / ProjectMER
+ProjectMER
 
 SCPSLAudioApi
 
@@ -55,11 +55,14 @@ EXILED/
 │   ├── Plugins/
 │   │   └── scp153/
 │   │       └── Audio/
-│   │           └── HAPS.ogg
-│   └── MapEditorReborn/
+│   │         └── HAPS.ogg
+SCPSecretLaboratory/
+├──LabAPI/
+│   └── config/
+│     └── ProjectMER/
 │       └── Schematics/
 │           └── SCP153/
-│               └── SCP153.json (+ assety)
+│               └── SCP153.json
 ```
 
 ### 📝 Konfiguracja
@@ -152,11 +155,14 @@ EXILED/
 │   ├── Plugins/
 │   │   └── scp153/
 │   │       └── Audio/
-│   │           └── HAPS.ogg
-│   └── MapEditorReborn/
+│   │         └── HAPS.ogg
+SCPSecretLaboratory/
+├──LabAPI/
+│   └── config/
+│     └── ProjectMER/
 │       └── Schematics/
 │           └── SCP153/
-│               └── SCP153.json (+ assets)
+│               └── SCP153.json
 ```
 
 ### 📝 Configuration
