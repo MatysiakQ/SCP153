@@ -34,7 +34,7 @@ EXILED/Plugins/
 #### 2. Schematic (Model)
 Umieść folder ze schematem SCP153 w katalogu MapEditorReborn. Folder musi zawierać plik .json oraz wszystkie powiązane assety.
 ```text
-EXILED/Configs/MapEditorReborn/Schematics/SCP153/
+SCP Secret Laboratory\LabAPI\configs\ProjectMER\Schematics\SCP153
 ```
 
 #### 3. Audio
@@ -130,7 +130,7 @@ EXILED/Plugins/
 #### 2. Schematic (model)
 Place the SCP153 schematic folder in the MapEditorReborn directory:
 ```text
-EXILED/Configs/MapEditorReborn/Schematics/SCP153/
+SCP Secret Laboratory\LabAPI\configs\ProjectMER\Schematics\SCP153
 ```
 The folder must contain the schematic .json file and all related assets.
 
