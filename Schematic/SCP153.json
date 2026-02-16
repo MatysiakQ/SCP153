@@ -1,0 +1,733 @@
+{
+  "RootObjectId": -8390,
+  "Blocks": [
+    {
+      "Name": "Brzuch miesien piwny",
+      "ObjectId": -10394,
+      "ParentId": -8390,
+      "Position": {
+        "x": -0.0514274351,
+        "y": 0.978000045,
+        "z": 0.0165896956
+      },
+      "Rotation": {
+        "x": 2.46134448,
+        "y": 269.806549,
+        "z": 329.192566
+      },
+      "Scale": {
+        "x": 0.7925023,
+        "y": 0.731459737,
+        "z": 1.13016152
+      },
+      "BlockType": 1,
+      "Properties": {
+        "PrimitiveType": 0,
+        "Color": "D4A373FF",
+        "PrimitiveFlags": 2
+      }
+    },
+    {
+      "Name": "Brzuch miesien piwny (1)",
+      "ObjectId": -153918,
+      "ParentId": -8390,
+      "Position": {
+        "x": -0.047730796,
+        "y": 0.9339999,
+        "z": -0.195462987
+      },
+      "Rotation": {
+        "x": 4.337439,
+        "y": 277.4781,
+        "z": 281.564148
+      },
+      "Scale": {
+        "x": 0.792502165,
+        "y": 0.7314597,
+        "z": 1.14917409
+      },
+      "BlockType": 1,
+      "Properties": {
+        "PrimitiveType": 0,
+        "Color": "D4A373FF",
+        "PrimitiveFlags": 2
+      }
+    },
+    {
+      "Name": "Podstawa kregoslup",
+      "ObjectId": -27526,
+      "ParentId": -8390,
+      "Position": {
+        "x": -0.0220896378,
+        "y": 1.15799987,
+        "z": -0.160100147
+      },
+      "Rotation": {
+        "x": 275.728882,
+        "y": 180.301758,
+        "z": 62.4483871
+      },
+      "Scale": {
+        "x": 0.7925025,
+        "y": 0.731459558,
+        "z": 1.26250267
+      },
+      "BlockType": 1,
+      "Properties": {
+        "PrimitiveType": 0,
+        "Color": "D4A373FF",
+        "PrimitiveFlags": 2
+      }
+    },
+    {
+      "Name": "Cycek",
+      "ObjectId": -31298,
+      "ParentId": -8390,
+      "Position": {
+        "x": 0.0863273,
+        "y": 1.442,
+        "z": 0.126077756
+      },
+      "Rotation": {
+        "x": 20.8737354,
+        "y": 291.349243,
+        "z": 8.078574
+      },
+      "Scale": {
+        "x": 0.190795019,
+        "y": -0.188760877,
+        "z": 0.1833369
+      },
+      "BlockType": 1,
+      "Properties": {
+        "PrimitiveType": 0,
+        "Color": "D4A373FF",
+        "PrimitiveFlags": 2
+      }
+    },
+    {
+      "Name": "Cycek (1)",
+      "ObjectId": -37966,
+      "ParentId": -8390,
+      "Position": {
+        "x": -0.143835172,
+        "y": 1.442,
+        "z": 0.1311009
+      },
+      "Rotation": {
+        "x": 358.556946,
+        "y": 262.714264,
+        "z": 7.00363445
+      },
+      "Scale": {
+        "x": 0.190794989,
+        "y": -0.188760877,
+        "z": 0.183336854
+      },
+      "BlockType": 1,
+      "Properties": {
+        "PrimitiveType": 0,
+        "Color": "D4A373FF",
+        "PrimitiveFlags": 2
+      }
+    },
+    {
+      "Name": "Brzuch miesien piwny z jeansami",
+      "ObjectId": -45640,
+      "ParentId": -8390,
+      "Position": {
+        "x": -0.0425418168,
+        "y": 0.7659999,
+        "z": 0.017612312
+      },
+      "Rotation": {
+        "x": 2.73724055,
+        "y": 269.860077,
+        "z": 270.354919
+      },
+      "Scale": {
+        "x": 0.8135032,
+        "y": 0.750843346,
+        "z": 1.16011035
+      },
+      "BlockType": 1,
+      "Properties": {
+        "PrimitiveType": 0,
+        "Color": "203459FF",
+        "PrimitiveFlags": 2
+      }
+    },
+    {
+      "Name": "Brzuch miesien piwny z jeansami (1)",
+      "ObjectId": -48106,
+      "ParentId": -8390,
+      "Position": {
+        "x": -0.04054492,
+        "y": 0.682000041,
+        "z": -0.164024726
+      },
+      "Rotation": {
+        "x": 2.46134686,
+        "y": 269.806549,
+        "z": 2.484731
+      },
+      "Scale": {
+        "x": 0.8307498,
+        "y": 0.7508436,
+        "z": 1.160111
+      },
+      "BlockType": 1,
+      "Properties": {
+        "PrimitiveType": 0,
+        "Color": "203459FF",
+        "PrimitiveFlags": 2
+      }
+    },
+    {
+      "Name": "glowa",
+      "ObjectId": -53200,
+      "ParentId": -8390,
+      "Position": {
+        "x": -0.0299629979,
+        "y": 1.922,
+        "z": -0.205122441
+      },
+      "Rotation": {
+        "x": 0.0,
+        "y": 19.9999981,
+        "z": 0.0
+      },
+      "Scale": {
+        "x": 0.32062012,
+        "y": 0.32062003,
+        "z": 0.32062012
+      },
+      "BlockType": 1,
+      "Properties": {
+        "PrimitiveType": 0,
+        "Color": "D4A373FF",
+        "PrimitiveFlags": 2
+      }
+    },
+    {
+      "Name": "Bark1",
+      "ObjectId": -59894,
+      "ParentId": -8390,
+      "Position": {
+        "x": 0.16090858,
+        "y": 1.62199986,
+        "z": -0.177753866
+      },
+      "Rotation": {
+        "x": 1.56621194,
+        "y": 332.823517,
+        "z": 4.34903955
+      },
+      "Scale": {
+        "x": 0.2503103,
+        "y": 0.250310272,
+        "z": 0.250310332
+      },
+      "BlockType": 1,
+      "Properties": {
+        "PrimitiveType": 0,
+        "Color": "D4A373FF",
+        "PrimitiveFlags": 2
+      }
+    },
+    {
+      "Name": "Bark2",
+      "ObjectId": -61816,
+      "ParentId": -8390,
+      "Position": {
+        "x": -0.210732892,
+        "y": 1.62,
+        "z": -0.163803652
+      },
+      "Rotation": {
+        "x": 350.0527,
+        "y": 267.070953,
+        "z": 9.813784
+      },
+      "Scale": {
+        "x": 0.250310272,
+        "y": 0.250310272,
+        "z": 0.250310332
+      },
+      "BlockType": 1,
+      "Properties": {
+        "PrimitiveType": 0,
+        "Color": "D4A373FF",
+        "PrimitiveFlags": 2
+      }
+    },
+    {
+      "Name": "Biceps1",
+      "ObjectId": -65550,
+      "ParentId": -8390,
+      "Position": {
+        "x": 0.316841483,
+        "y": 1.60600007,
+        "z": -0.0767976344
+      },
+      "Rotation": {
+        "x": 87.85169,
+        "y": 314.327362,
+        "z": 294.312225
+      },
+      "Scale": {
+        "x": 0.19562985,
+        "y": 0.19562985,
+        "z": 0.195629761
+      },
+      "BlockType": 1,
+      "Properties": {
+        "PrimitiveType": 1,
+        "Color": "D4A373FF",
+        "PrimitiveFlags": 2
+      }
+    },
+    {
+      "Name": "Biceps2",
+      "ObjectId": -67596,
+      "ParentId": -8390,
+      "Position": {
+        "x": -0.326902419,
+        "y": 1.59600031,
+        "z": -0.08533941
+      },
+      "Rotation": {
+        "x": 275.988434,
+        "y": 178.204056,
+        "z": 345.806366
+      },
+      "Scale": {
+        "x": 0.195629865,
+        "y": 0.19562979,
+        "z": 0.195629746
+      },
+      "BlockType": 1,
+      "Properties": {
+        "PrimitiveType": 1,
+        "Color": "D4A373FF",
+        "PrimitiveFlags": 2
+      }
+    },
+    {
+      "Name": "Sutek1",
+      "ObjectId": -74880,
+      "ParentId": -8390,
+      "Position": {
+        "x": 0.081,
+        "y": 1.462,
+        "z": 0.208
+      },
+      "Rotation": {
+        "x": 82.4187851,
+        "y": 19.9999866,
+        "z": 26.854866
+      },
+      "Scale": {
+        "x": 0.0259820651,
+        "y": 0.0259820726,
+        "z": 0.0259820689
+      },
+      "BlockType": 1,
+      "Properties": {
+        "PrimitiveType": 1,
+        "Color": "CC8080FF",
+        "PrimitiveFlags": 2
+      }
+    },
+    {
+      "Name": "Sutek2",
+      "ObjectId": -79364,
+      "ParentId": -8390,
+      "Position": {
+        "x": -0.148935825,
+        "y": 1.4594,
+        "z": 0.217665911
+      },
+      "Rotation": {
+        "x": 82.4187851,
+        "y": 19.9999866,
+        "z": 26.854866
+      },
+      "Scale": {
+        "x": 0.0259820651,
+        "y": 0.0259820726,
+        "z": 0.0259820689
+      },
+      "BlockType": 1,
+      "Properties": {
+        "PrimitiveType": 1,
+        "Color": "CC8080FF",
+        "PrimitiveFlags": 2
+      }
+    },
+    {
+      "Name": "Przedramie1",
+      "ObjectId": -87080,
+      "ParentId": -8390,
+      "Position": {
+        "x": 0.350678056,
+        "y": 1.60600007,
+        "z": 0.168205082
+      },
+      "Rotation": {
+        "x": 275.253082,
+        "y": 261.167267,
+        "z": 275.0264
+      },
+      "Scale": {
+        "x": 0.19562985,
+        "y": 0.232075617,
+        "z": 0.195629761
+      },
+      "BlockType": 1,
+      "Properties": {
+        "PrimitiveType": 1,
+        "Color": "D4A373FF",
+        "PrimitiveFlags": 2
+      }
+    },
+    {
+      "Name": "Przedramie2",
+      "ObjectId": -89366,
+      "ParentId": -8390,
+      "Position": {
+        "x": -0.367458522,
+        "y": 1.60619986,
+        "z": 0.1763111
+      },
+      "Rotation": {
+        "x": 355.939575,
+        "y": 86.55384,
+        "z": 88.700325
+      },
+      "Scale": {
+        "x": 0.195629865,
+        "y": 0.223878771,
+        "z": 0.195629776
+      },
+      "BlockType": 1,
+      "Properties": {
+        "PrimitiveType": 1,
+        "Color": "D4A373FF",
+        "PrimitiveFlags": 2
+      }
+    },
+    {
+      "Name": "Przedramie1 (1)",
+      "ObjectId": -92108,
+      "ParentId": -8390,
+      "Position": {
+        "x": 0.336907327,
+        "y": 1.60799992,
+        "z": 0.405207932
+      },
+      "Rotation": {
+        "x": 275.265442,
+        "y": 261.562,
+        "z": 276.3753
+      },
+      "Scale": {
+        "x": 0.1956299,
+        "y": 0.232075647,
+        "z": 0.195629746
+      },
+      "BlockType": 1,
+      "Properties": {
+        "PrimitiveType": 1,
+        "Color": "D4A373FF",
+        "PrimitiveFlags": 2
+      }
+    },
+    {
+      "Name": "Przedramie2 (1)",
+      "ObjectId": -100454,
+      "ParentId": -8390,
+      "Position": {
+        "x": -0.3797395,
+        "y": 1.60799992,
+        "z": 0.3659479
+      },
+      "Rotation": {
+        "x": 355.930023,
+        "y": 85.99003,
+        "z": 88.71259
+      },
+      "Scale": {
+        "x": 0.1956298,
+        "y": 0.223878771,
+        "z": 0.19562985
+      },
+      "BlockType": 1,
+      "Properties": {
+        "PrimitiveType": 1,
+        "Color": "D4A373FF",
+        "PrimitiveFlags": 2
+      }
+    },
+    {
+      "Name": "Udo1",
+      "ObjectId": -102192,
+      "ParentId": -8390,
+      "Position": {
+        "x": 0.126262918,
+        "y": 0.303799868,
+        "z": -0.09575947
+      },
+      "Rotation": {
+        "x": 0.0,
+        "y": 19.9999981,
+        "z": 0.0
+      },
+      "Scale": {
+        "x": 0.266494155,
+        "y": 0.383671522,
+        "z": 0.266494155
+      },
+      "BlockType": 1,
+      "Properties": {
+        "PrimitiveType": 0,
+        "Color": "203459FF",
+        "PrimitiveFlags": 2
+      }
+    },
+    {
+      "Name": "Noga1",
+      "ObjectId": -55018,
+      "ParentId": -8390,
+      "Position": {
+        "x": 0.126416326,
+        "y": 0.106599927,
+        "z": -0.09709232
+      },
+      "Rotation": {
+        "x": 0.0,
+        "y": 342.661957,
+        "z": 0.0
+      },
+      "Scale": {
+        "x": 0.225602269,
+        "y": 0.225602239,
+        "z": 0.225602269
+      },
+      "BlockType": 1,
+      "Properties": {
+        "PrimitiveType": 1,
+        "Color": "D4A373FF",
+        "PrimitiveFlags": 2
+      }
+    },
+    {
+      "Name": "Udo2",
+      "ObjectId": -105714,
+      "ParentId": -8390,
+      "Position": {
+        "x": -0.2932614,
+        "y": 0.28279984,
+        "z": -0.097583726
+      },
+      "Rotation": {
+        "x": 0.0,
+        "y": 10.7804832,
+        "z": 0.0
+      },
+      "Scale": {
+        "x": 0.266494036,
+        "y": 0.383671522,
+        "z": 0.266494036
+      },
+      "BlockType": 1,
+      "Properties": {
+        "PrimitiveType": 0,
+        "Color": "203459FF",
+        "PrimitiveFlags": 2
+      }
+    },
+    {
+      "Name": "Noga2",
+      "ObjectId": -105722,
+      "ParentId": -8390,
+      "Position": {
+        "x": -0.291757941,
+        "y": 0.09919989,
+        "z": -0.0981309339
+      },
+      "Rotation": {
+        "x": 0.0,
+        "y": 333.442444,
+        "z": 0.0
+      },
+      "Scale": {
+        "x": 0.225602269,
+        "y": 0.225602239,
+        "z": 0.225602269
+      },
+      "BlockType": 1,
+      "Properties": {
+        "PrimitiveType": 1,
+        "Color": "D4A373FF",
+        "PrimitiveFlags": 2
+      }
+    },
+    {
+      "Name": "oko1",
+      "ObjectId": -132154,
+      "ParentId": -8390,
+      "Position": {
+        "x": 0.0142163262,
+        "y": 1.9678,
+        "z": -0.0585960373
+      },
+      "Rotation": {
+        "x": 0.0,
+        "y": 1.74176192,
+        "z": 0.0
+      },
+      "Scale": {
+        "x": 0.0258570444,
+        "y": 0.0258570518,
+        "z": -0.015193088
+      },
+      "BlockType": 1,
+      "Properties": {
+        "PrimitiveType": 0,
+        "Color": "FFFFFFFF",
+        "PrimitiveFlags": 2
+      }
+    },
+    {
+      "Name": "oko2",
+      "ObjectId": -135090,
+      "ParentId": -8390,
+      "Position": {
+        "x": -0.07711488,
+        "y": 1.9664,
+        "z": -0.0598335676
+      },
+      "Rotation": {
+        "x": 354.1943,
+        "y": 359.115143,
+        "z": 87.91731
+      },
+      "Scale": {
+        "x": 0.0280650966,
+        "y": 0.0280651,
+        "z": -0.01649049
+      },
+      "BlockType": 1,
+      "Properties": {
+        "PrimitiveType": 0,
+        "Color": "FFFFFFFF",
+        "PrimitiveFlags": 2
+      }
+    },
+    {
+      "Name": "Pepek",
+      "ObjectId": -137802,
+      "ParentId": -8390,
+      "Position": {
+        "x": -0.04577838,
+        "y": 0.9404,
+        "z": 0.399340361
+      },
+      "Rotation": {
+        "x": 0.0,
+        "y": 359.3096,
+        "z": 0.0
+      },
+      "Scale": {
+        "x": -0.0234694,
+        "y": -0.0234694015,
+        "z": -0.0234694
+      },
+      "BlockType": 1,
+      "Properties": {
+        "PrimitiveType": 0,
+        "Color": "000000FF",
+        "PrimitiveFlags": 2
+      }
+    },
+    {
+      "Name": "Usta",
+      "ObjectId": -145450,
+      "ParentId": -8390,
+      "Position": {
+        "x": -0.0538049862,
+        "y": 1.896,
+        "z": -0.04958815
+      },
+      "Rotation": {
+        "x": 0.978182,
+        "y": 356.6912,
+        "z": 90.41098
+      },
+      "Scale": {
+        "x": 0.0200256575,
+        "y": 0.03280802,
+        "z": 0.0200256445
+      },
+      "BlockType": 1,
+      "Properties": {
+        "PrimitiveType": 1,
+        "Color": "660000FF",
+        "PrimitiveFlags": 2
+      }
+    },
+    {
+      "Name": "OkoKolor1",
+      "ObjectId": -149008,
+      "ParentId": -8390,
+      "Position": {
+        "x": -0.07653172,
+        "y": 1.9678,
+        "z": -0.052383747
+      },
+      "Rotation": {
+        "x": 0.0,
+        "y": 1.74176192,
+        "z": 0.0
+      },
+      "Scale": {
+        "x": 0.0109327734,
+        "y": 0.0109327771,
+        "z": -0.00642388174
+      },
+      "BlockType": 1,
+      "Properties": {
+        "PrimitiveType": 0,
+        "Color": "8A7A4AFF",
+        "PrimitiveFlags": 2
+      }
+    },
+    {
+      "Name": "OkoKolor2",
+      "ObjectId": -150888,
+      "ParentId": -8390,
+      "Position": {
+        "x": 0.0124751264,
+        "y": 1.9678,
+        "z": -0.05285424
+      },
+      "Rotation": {
+        "x": 0.0,
+        "y": 1.74176192,
+        "z": 0.0
+      },
+      "Scale": {
+        "x": 0.0102007147,
+        "y": 0.0102007184,
+        "z": -0.0059937383
+      },
+      "BlockType": 1,
+      "Properties": {
+        "PrimitiveType": 0,
+        "Color": "8A7A4AFF",
+        "PrimitiveFlags": 2
+      }
+    }
+  ]
+}
