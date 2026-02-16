@@ -3,6 +3,17 @@
 ![Author](https://img.shields.io/badge/Author-Matysiak-green)
 # SCP-153 | BULSON
 
+SCP-153, internally designated "Bulson", is a biological anomaly classified as a humanoid parasitic organism. The entity resembles a deformed, massive humanoid figure — significantly larger than an average human, moving in a characteristic, lumbering manner.
+
+Bulson displays predatory behavior — actively hunting facility personnel and any other individuals encountered. Its attack method is unique and currently unexplained: upon contact with a victim, the entity partially consumes them, after which the victim is instantly displaced to a random location within the facility. The teleportation mechanism is believed to be related to the anomalous structure of the entity's digestive system.
+
+Each successful "consumption" regenerates Bulson's protective layer, suggesting that consuming victims is essential to its survival. The entity moves slower than the average human, however its durability is extremely high.
+
+During an attack, the entity emits a characteristic sound — a deep, vibrating absorption noise.
+
+Class: Euclid
+Containment Status: Active
+
 LOOKING FOR PRO MODELER, TO REPAIR THE MODEL!!!(SORY IM BAD WITH UNITY!!!!)
 
 🇵🇱 Polski | 🇬🇧 English
