@@ -39,14 +39,12 @@ namespace SCP153.Logic
             EatCooldowns.Clear();
 
             // Czekamy 5s - dłużej niż SCP-066 (który czeka 3s)
-            // żeby mieć pewność że 066 już się przypisał zanim 153 wybiera pulę
             Timing.CallDelayed(5.0f, () =>
             {
                 if (Random.value > Plugin.Instance.Config.SpawnChance) return;
 
                 if (!CustomRole.TryGet(153, out CustomRole bulsonRole)) return;
 
-                // Wykluczamy 079 i graczy którzy już mają jakąkolwiek CustomRole (np. SCP-066)
                 var scpPool = Player.List.Where(p => p.Role.Team == Team.SCPs
                                                 && p.Role.Type != RoleTypeId.Scp079
                                                 && !CustomRole.Registered.Any(r => r.Check(p))).ToList();
@@ -96,7 +94,6 @@ namespace SCP153.Logic
             ev.Amount = Plugin.Instance.Config.Damage;
             ev.Attacker.HumeShield += 100f;
 
-            // Odtwarzamy dźwięk ataku przez komponent
             if (ev.Attacker.GameObject.TryGetComponent(out Scp153Component comp))
                 comp.PlayAttackSound();
 

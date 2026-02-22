@@ -85,11 +85,10 @@ namespace SCP153
                 // Kontynuuj bez modelu
             }
 
-            // Ukrywamy renderery zombiaka
             foreach (var r in _player.GameObject.GetComponentsInChildren<Renderer>())
                 _zombieRenderers.Add(r);
 
-            // --- AUDIO --- (z opóźnieniem jak w SCP-066)
+            // --- AUDIO ---
             Timing.CallDelayed(1.2f, () =>
             {
                 try
@@ -124,7 +123,7 @@ namespace SCP153
             });
         }
 
-        // Wywołane z LogicHandler przy ataku
+
         public void PlayAttackSound()
         {
             if (_audioPlayer == null) return;
@@ -149,7 +148,7 @@ namespace SCP153
             // Wygładzanie Y
             _smoothY = Mathf.Lerp(_smoothY, playerPos.y + OffsetY, Time.deltaTime * YSmoothSpeed);
 
-            // Tylko yaw - bez pitch gdy gracz patrzy w górę/dół
+
             float yaw = _player.Rotation.eulerAngles.y;
             Quaternion yawRotation = Quaternion.Euler(0f, yaw, 0f);
 
