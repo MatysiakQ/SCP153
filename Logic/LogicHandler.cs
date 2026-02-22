@@ -17,13 +17,21 @@ namespace SCP153.Logic
         public static void RegisterEvents()
         {
             Exiled.Events.Handlers.Player.Hurting += OnHurting;
+            Exiled.Events.Handlers.Player.Left += OnLeft;
             Exiled.Events.Handlers.Server.RoundStarted += OnRoundStarted;
         }
 
         public static void UnregisterEvents()
         {
             Exiled.Events.Handlers.Player.Hurting -= OnHurting;
+            Exiled.Events.Handlers.Player.Left -= OnLeft;
             Exiled.Events.Handlers.Server.RoundStarted -= OnRoundStarted;
+        }
+
+        private static void OnLeft(LeftEventArgs ev)
+        {
+            if (ev.Player != null && EatCooldowns.ContainsKey(ev.Player))
+                EatCooldowns.Remove(ev.Player);
         }
 
         private static void OnRoundStarted()
