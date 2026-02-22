@@ -50,28 +50,39 @@ namespace SCP153
 
             // --- MODEL ---
             string schemName = Plugin.Instance.Config.SchematicName;
-            _schematic = ObjectSpawner.SpawnSchematic(schemName, _player.Position);
 
-            if (_schematic != null)
+            try
             {
-                _schematic.transform.parent = null;
-                _schematic.transform.localScale = Vector3.one;
+                Log.Info($"[SCP-153] Próba załadowania schematu: {schemName}");
+                _schematic = ObjectSpawner.SpawnSchematic(schemName, _player.Position);
 
-                _smoothY = _player.Position.y + OffsetY;
-
-                Timing.CallDelayed(1.5f, () =>
+                if (_schematic != null)
                 {
-                    if (_player != null && _player.Connection != null && _schematic != null)
+                    Log.Info("[SCP-153] Schemat załadowany pomyślnie");
+                    _schematic.transform.parent = null;
+                    _schematic.transform.localScale = Vector3.one;
+
+                    _smoothY = _player.Position.y + OffsetY;
+
+                    Timing.CallDelayed(1.5f, () =>
                     {
-                        NetworkIdentity ni = _schematic.gameObject.GetComponent<NetworkIdentity>();
-                        if (ni != null)
-                            _player.Connection.Send(new ObjectDestroyMessage { netId = ni.netId });
-                    }
-                });
+                        if (_player != null && _player.Connection != null && _schematic != null)
+                        {
+                            NetworkIdentity ni = _schematic.gameObject.GetComponent<NetworkIdentity>();
+                            if (ni != null)
+                                _player.Connection.Send(new ObjectDestroyMessage { netId = ni.netId });
+                        }
+                    });
+                }
+                else
+                {
+                    Log.Error($"[SCP-153] Nie znaleziono schematu: {schemName}");
+                }
             }
-            else
+            catch (Exception e)
             {
-                Log.Error($"[SCP-153] Nie znaleziono schematu: {schemName}");
+                Log.Error($"[SCP-153] BŁĄD podczas ładowania schematu: {e}");
+                // Kontynuuj bez modelu
             }
 
             // Ukrywamy renderery zombiaka

@@ -30,6 +30,9 @@ namespace SCP153.Roles
                 player.MaxHealth = 6000f;
                 player.Health = 6000f;
                 player.HumeShield = 500f;
+
+                // Broadcast dla gracza
+                player.Broadcast(10, "<size=30><color=red><b>JESTEŚ SCP-153 BULSON</b></color></size>\n<color=yellow>NIE DAJ IM ZJEŚĆ SWOJEGO KAJMAKU!</color>");
             });
 
             // UKRYCIE ZOMBIAKA - Fade 255 zamiast Invisible (gracz nie widzi przyciemnionego ekranu)
