@@ -34,6 +34,19 @@ namespace SCP153
         private void Start()
         {
             _player = Player.Get(gameObject);
+            if (_player == null)
+            {
+                Log.Error("[SCP-153] Player.Get zwrócił null w Start!");
+                Destroy(this);
+                return;
+            }
+
+            if (Plugin.Instance == null)
+            {
+                Log.Error("[SCP-153] Plugin.Instance jest null!");
+                Destroy(this);
+                return;
+            }
 
             // --- MODEL ---
             string schemName = Plugin.Instance.Config.SchematicName;
@@ -48,7 +61,7 @@ namespace SCP153
 
                 Timing.CallDelayed(1.5f, () =>
                 {
-                    if (_player != null && _schematic != null)
+                    if (_player != null && _player.Connection != null && _schematic != null)
                     {
                         NetworkIdentity ni = _schematic.gameObject.GetComponent<NetworkIdentity>();
                         if (ni != null)

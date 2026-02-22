@@ -55,6 +55,8 @@ namespace SCP153.Logic
                 // Teleport do Server Room w HCZ
                 Timing.CallDelayed(1f, () =>
                 {
+                    if (selected == null || !selected.IsAlive) return;
+
                     var room = Room.List.FirstOrDefault(r => r.Name.ToLower().Contains("server") && r.Zone == ZoneType.HeavyContainment);
 
                     // Fallback na HczArmory
@@ -92,6 +94,8 @@ namespace SCP153.Logic
 
             Timing.CallDelayed(0.1f, () =>
             {
+                if (ev.Player == null || !ev.Player.IsAlive) return;
+
                 var rooms = Room.List.Where(r => r.Zone == ZoneType.LightContainment || r.Zone == ZoneType.HeavyContainment).ToList();
                 if (rooms.Any())
                     ev.Player.Position = rooms[Random.Range(0, rooms.Count)].Position + Vector3.up;
