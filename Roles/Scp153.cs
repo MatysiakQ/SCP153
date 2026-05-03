@@ -14,7 +14,7 @@ namespace SCP153.Roles
         public override string Description { get; set; } = "Gowniak pozerajacy ofiary";
         public override string CustomInfo { get; set; } = "SCP-153 BULSON";
         public override RoleTypeId Role { get; set; } = RoleTypeId.Scp0492; // Rola Zombiaka
-        public override int MaxHealth { get; set; } = 6000;
+        public override int MaxHealth { get; set; } = 4500;
         public override float SpawnChance { get; set; } = 0f;
 
         protected override void RoleAdded(Player player)
